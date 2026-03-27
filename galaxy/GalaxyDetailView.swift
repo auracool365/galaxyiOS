@@ -67,6 +67,7 @@ struct GalaxyDetailView: View {
                     ZStack(alignment: .bottomLeading) {
                         GeometryReader { geo in
                             let y = geo.frame(in: .global).minY
+                            let height = y > 0 ? 320 + y : 320
                             
                             Image(galaxy.imageName)
                                 .resizable()
@@ -77,21 +78,22 @@ struct GalaxyDetailView: View {
                                     height: y > 0 ? 320 + y : 320
                                 )
                                 .offset(y: y > 0 ? -y : 0)
+                            
+                                // Gradient overlay for readability
+                                LinearGradient(
+                                    colors: [
+                                        .black.opacity(0.6),
+                                        .clear,
+                                        .black.opacity(0.6)
+                                    ],
+                                    startPoint: .top,
+                                    endPoint: .bottom
+                                )
+                                .frame(width: geo.size.width, height: height)
+                                .offset(y: y > 0 ? -y : 0)
                         }
                         .frame(height: 320)
                         //.clipped()
- 
-                        // Gradient overlay for readability
-                        LinearGradient(
-                            colors: [
-                                .black.opacity(0.6),
-                                .clear,
-                                .black.opacity(0.6)
-                            ],
-                            startPoint: .top,
-                            endPoint: .bottom
-                        )
-                        .frame(height: 320)
  
                         // Galaxy name + type over the hero
                         VStack(alignment: .leading, spacing: 8) {
@@ -118,9 +120,10 @@ struct GalaxyDetailView: View {
                                 .foregroundStyle(.teal/*.opacity(0.9)*/)
                                 
                         }
-                        .padding(20)
+                        .padding(18)
+                        .padding(.bottom, 12)
                     }
-                    .frame(height: 320)
+                    .frame(height: 340)
  
                     // MARK: Content
                     VStack(alignment: .leading, spacing: 24) {
@@ -177,6 +180,10 @@ struct GalaxyDetailView: View {
                         Spacer(minLength: 40)
                     }
                     .padding(18)
+                    //.padding(.top, 2)
+                    .background(Color(.systemBackground))
+                    .cornerRadius(12, corners: [.topLeft, .topRight]) // curved edges
+                    .offset(y: -26)
                 }
             }
             .background(Color(.systemBackground))

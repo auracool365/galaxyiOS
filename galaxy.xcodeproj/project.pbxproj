@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E796C9E62F769BEE00DA2062 /* ShapeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E796C9E52F769BEE00DA2062 /* ShapeExtension.swift */; };
 		E7B5316E2F73FF3D00268387 /* GalaxyRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B5316D2F73FF3D00268387 /* GalaxyRowView.swift */; };
 		E7B531702F73FF7D00268387 /* GalaxyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B5316F2F73FF7D00268387 /* GalaxyDetailView.swift */; };
 		E7B531722F7404C800268387 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B531712F7404C800268387 /* AppTheme.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		E796C9E42F7692D700DA2062 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E796C9E52F769BEE00DA2062 /* ShapeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeExtension.swift; sourceTree = "<group>"; };
 		E7B5316D2F73FF3D00268387 /* GalaxyRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyRowView.swift; sourceTree = "<group>"; };
 		E7B5316F2F73FF7D00268387 /* GalaxyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyDetailView.swift; sourceTree = "<group>"; };
 		E7B531712F7404C800268387 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				E7B5316D2F73FF3D00268387 /* GalaxyRowView.swift */,
 				E7B5316F2F73FF7D00268387 /* GalaxyDetailView.swift */,
 				E7B531732F7404F400268387 /* SettingsView.swift */,
+				E796C9E52F769BEE00DA2062 /* ShapeExtension.swift */,
 			);
 			path = galaxy;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				E7FD16AB2BB9D5170043063E /* galaxyData.swift in Sources */,
 				E7FD169D2BB9C6D40043063E /* galaxyApp.swift in Sources */,
 				E7B531722F7404C800268387 /* AppTheme.swift in Sources */,
+				E796C9E62F769BEE00DA2062 /* ShapeExtension.swift in Sources */,
 				E7B531702F73FF7D00268387 /* GalaxyDetailView.swift in Sources */,
 				E7B5316E2F73FF3D00268387 /* GalaxyRowView.swift in Sources */,
 			);
