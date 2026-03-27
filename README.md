@@ -1,4 +1,3 @@
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-27 at 10 24 42" src="https://github.com/user-attachments/assets/9972c90a-e717-4797-9e4d-ab3295dddb66" />
 # Galaxy 
 
 ## Overview
@@ -8,6 +7,8 @@ An iOS app for exploring the most fascinating galaxies in the known universe —
 
 ## Screenshots
 <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-27 at 10 24 33" src="https://github.com/user-attachments/assets/a445a1a3-1cc0-491a-b49c-8e4ce3d6892b" />
+
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-27 at 10 24 42" src="https://github.com/user-attachments/assets/9972c90a-e717-4797-9e4d-ab3295dddb66" />
 
 <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-27 at 10 25 09" src="https://github.com/user-attachments/assets/1bbd73ac-845c-4124-8a6a-319412c703cd" />
 
