@@ -8,37 +8,7 @@
 import SwiftUI
 
 import SwiftUI
- 
-// MARK: - Stat Tile
-struct StatTile: View {
-    let icon: String
-    let label: String
-    let value: String
- 
-    var body: some View {
-        VStack(alignment: .leading, spacing: 6) {
-            HStack(spacing: 6) {
-                Image(systemName: icon)
-                    .font(.system(size: 13))
-                    .foregroundColor(.blue)
-                Text(label)
-                    .font(.system(size: 11, weight: .semibold))
-                    .foregroundColor(.secondary)
-                    .textCase(.uppercase)
-                    .tracking(0.5)
-            }
-            Text(value)
-                .font(.system(size: 14, weight: .medium))
-                .foregroundColor(.primary)
-                .fixedSize(horizontal: false, vertical: true)
-        }
-        .padding(14)
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Color.primary.opacity(0.06))
-        .cornerRadius(14)
-    }
-}
- 
+  
 // MARK: - Galaxy Detail View
 struct GalaxyDetailView: View {
  
@@ -121,9 +91,9 @@ struct GalaxyDetailView: View {
                                 
                         }
                         .padding(18)
-                        .padding(.bottom, 12)
+                        .padding(.bottom, 18)
                     }
-                    .frame(height: 340)
+                    .frame(height: 320)
  
                     // MARK: Content
                     VStack(alignment: .leading, spacing: 24) {
